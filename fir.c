@@ -2,9 +2,9 @@
 
 int main()
 {
-    int n,k,a[25],i,j,sum=0;
-    scanf("%d%d",&n,&k);
-    for(i=0;i<=n;i++)
+    int m=8,k=9,a[25],i,j,sum=0;
+    
+    for(i=0;i<=m;i++)
     {
         scanf("%d",&a[i]);
         }
