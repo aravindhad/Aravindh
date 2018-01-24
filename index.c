@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int a[20],i,t;
+int a[20],r,t;
 printf("Enter the size of array");
 scanf("%d",&a[i]);
 printf("Enter the elements");
 scanf("%d",&t);
-for(i=0;i<t;i++);
+for(r=0;r<t;r++);
 {
-printf("%d%d",a[i],i);
+printf("%d%d",a[i],r);
 }
 }
