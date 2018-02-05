@@ -4,18 +4,18 @@ void main()
 {
     char    str[100];
     int countDigits,countAlphabet,countSpecialChar,countSpaces;
-    int counter;
+    int c;
     countDigits=countAlphabet=countSpecialChar=countSpaces=0;
  
     printf("Enter a string: ");
     gets(str);
-    for(counter=0;str[counter]!=NULL;counter++)
+    for(c=0;str[c]!=NULL;c++)
     {
-        if(str[counter]>='0' && str[counter]<='9')
+        if(str[c]>='0' && str[c]<='9')
             countDigits++;
-        else if((str[counter]>='A' && str[counter]<='Z')||(str[counter]>='a' && str[counter]<='z'))
+        else if((str[c]>='A' && str[c]<='Z')||(str[c]>='a' && str[c]<='z'))
             countAlphabet++;
-        else if(str[counter]==' ')
+        else if(str[c]==' ')
             countSpaces++;
         else
             countSpecialChar++;
