@@ -1,4 +1,6 @@
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
     char    str[100];
     int countDigits,countAlphabet,countSpecialChar,countSpaces;
