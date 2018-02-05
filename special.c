@@ -3,7 +3,7 @@
 void main()
 {
     char    str[100];
-    int countDigits,countAlphabet,countSpecialChar,countSpaces;
+    int countDigits,countAlphabet,countSpecialChar;
     int c;
     countDigits=countAlphabet=countSpecialChar=countSpaces=0;
  
